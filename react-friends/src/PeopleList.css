@@ -1,0 +1,18 @@
+.People__Wrapper {
+    display: flex;
+    width: 80%;
+    justify-content: center;
+    flex-flow: row wrap;
+    padding: 0 10%;
+}
+
+.People__item {
+    font-size: 14px;
+    border: 1px solid black;
+    padding: 2% 2%;
+    margin: 0.1% 0.1%;
+}
+
+.People__item:hover {
+    background-color: rgb(252, 252, 223);
+}
